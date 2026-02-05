@@ -70,3 +70,20 @@ The trained model can generate semantically meaningful captions for unseen image
 - NumPy, Pandas  
 
 ## Project Structure
+
+vision-caption/
+├── data/
+│ ├── images/
+│ └── captions.txt
+├── notebooks/
+│ └── vision-caption.ipynb
+├── models/
+│ ├── encoder.h5
+│ └── decoder.h5
+├── src/
+│ ├── preprocessing.py
+│ ├── model.py
+│ ├── train.py
+│ └── evaluate.py
+├── requirements.txt
+└── README.md
